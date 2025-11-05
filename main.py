@@ -13,6 +13,7 @@ class Person:
         self.first_name = first
         self.last_name = last
 
+
 p1 = Person("Hasan", "Aliyev")
 print(p1.full_name)  
 
@@ -20,3 +21,4 @@ p1.full_name = "Jasur Karimov"
 print(p1.first_name) 
 print(p1.last_name)  
 print(p1.full_name)
+print('shunday'.upper())
